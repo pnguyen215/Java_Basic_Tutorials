@@ -1,0 +1,6 @@
+- Thread Priority (attributed: setPriority) include 10 ranks
++ Minimum: 1
++ Maximum: 10
+
+- Daemon Thread: set this thread is running in background.
+- When you set another thread running in background then comment this thread is starting

@@ -1,0 +1,20 @@
+- Anonymous Inner Class is class no name!
+- Anonymous Inner Class is often subclass of abstract class or class implement interface,
+- Save time to declare class, we can use "Anonymous Inner Class" to declare.
+
+
+
+- We need review a lot of things, we learn!
+ 
+ 	+ When declared a class, using: "Class-Name <variable> = new Class-Name();"
+ 	+ We using double brackets to create new Constructor
+ 	+ But, with ANONYMOUS Inner Class, we will handle any method (override) from Interface and Abstract class
+ 	+ Example for this case: using type of constructor
+ 		* "PersonService personService = new PersonService() {
+
+			@Override
+			public String announce() {
+				return "I am method of interface Class";
+			}
+		};"
+ 	 [In this above example, PersonService is interface class]

@@ -1,0 +1,23 @@
+- When you want to read any files then you will handle a lot of step by step: 
+
+	+ Create "File file = new File(name_file.extension);"
+	+ Using "FileInputStream fileInputStream = new FileInputStream(file);"
+	+ "integer words = fileInputStream.read();
+			while (words != -1) {
+				System.out.print((char) words);
+				words = fileInputStream.read();
+			}
+			fileInputStream.close();"
+
+
+- When you want to write any files then you will handle a lot of step by step: 
+
+	+ Create "File file = new File(name_file.extension);"
+	+ "if (file.exists()) {
+			String string = null;
+			FileOutputStream fileOutputStream = new FileOutputStream(file, true);
+			fileOutputStream.write(string.getBytes());
+			fileOutputStream.close();
+		} else {
+			System.out.println("Can not write to file!");
+		}"

@@ -1,0 +1,7 @@
+
+
+- Variable instance[object] is declared under class and no keyword "static".
+- Function instance is sometimes set or get function in eclipse, and no keyword "static".
+
+
+=> Variable or Function instance is only call or execute when we build one new object from this class!

@@ -1,0 +1,4 @@
+- "Enumerated " is class combine with constant. 
+- Use enumerated  to create constant type class, to use it in case dynamic like object
+- To call enumerated, using NAME-class point to constant .
+- We can not extend or implement enumerated class!

@@ -1,0 +1,6 @@
+- Exception is an error in period progress! Do my program to stop!
+- Divided to 3 types:
+	+ Checked Exception: We can know in compile runtime,
+	+ Unchecked Exception: we can not guess! Cause we code so weak!,
+	+ Errors: that is virtual machine or missing memory!
+	

@@ -1,0 +1,2 @@
+- Exception class is master class of any exception sub class
+- So, when using try...catch, Exception is declared bottom 

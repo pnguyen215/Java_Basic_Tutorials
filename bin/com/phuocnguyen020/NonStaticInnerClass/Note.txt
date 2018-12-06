@@ -1,0 +1,12 @@
+- We declared inner class in public class
+
+- To access inner class, we will implement step by step:
+	+ Create object public class contain of inner class,
+	+ Access to inner class, (this case):
+			"Person person = new Person();"
+			"Person.Employee employee = person.new Employee();"
+
+- We can extends an inner class into this public class
+- Remember: can't Extends inner class from any class 
+	
+- Have fun :-)

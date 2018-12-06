@@ -1,0 +1,6 @@
+
+
+- In java, divided into 2 space memory. That is HEAP memory and STACK memory.
+
+	+ HEAP memory with function to save object,
+	+ STACK memory with function to save variable, functions, reference, arguments, ...

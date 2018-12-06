@@ -1,0 +1,19 @@
+- There are 2 ways to declared one thread:
+- Let's begin!
+
+	+ This class implements Runnable, after that, override run function. [1]
+	+ This class extends Thread, after that, typing "run" and override this function. [2]
+
+- To run my thread:
+	+ [1]: Using this class create new object, after that, create new thread, by this way:
+				
+				"MyThread1 myThread1 = new MyThread1();"
+				"Thread thread = new Thread(myThread1);"
+				"thread.start();"
+				
+				
+				
+	+ [2]: Very easy! We only create new object from this class, by this way:
+	
+				"MyThread2 myThread2 = new MyThread2();"
+				"myThread2.start();"

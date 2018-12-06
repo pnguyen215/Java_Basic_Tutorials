@@ -1,0 +1,3 @@
+- We declared "method-local inner class" into method of public class
+- In this case, Worker class is called method-local inner class
+- To access manage, We can only  access it's into method

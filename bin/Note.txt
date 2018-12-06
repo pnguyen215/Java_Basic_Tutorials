@@ -1,0 +1,2 @@
+ - Package is manage access for variable and function on class
+ - Abstract class, we can not create new object from corporal abstract class. This is master class

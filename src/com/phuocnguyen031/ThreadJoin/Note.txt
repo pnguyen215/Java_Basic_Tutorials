@@ -1,0 +1,17 @@
+- Join: wait a thread is finished, after that, continue next thread 
+- Example: 
+
+
+
+
+	"myThread.start();
+		try {
+			myThread.join();
+		} catch (InterruptedException e) {
+			System.out.println(e.getMessage());
+		}
+		myThread2.start();
+		myThread3.start();"
+		
+		
+		

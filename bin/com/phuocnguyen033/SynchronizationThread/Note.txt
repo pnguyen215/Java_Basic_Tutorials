@@ -1,0 +1,5 @@
+- Synchronization  is manage a lot of Threads access to one function, variables, or block code. 
+- All of statements must run sequentially.
+
+
+- We using keyword "synchronized" to synchronize function on this function you want to synchronize

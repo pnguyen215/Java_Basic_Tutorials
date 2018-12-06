@@ -1,0 +1,1 @@
+- When you want to create new Exception, then you use your class extend Exception 

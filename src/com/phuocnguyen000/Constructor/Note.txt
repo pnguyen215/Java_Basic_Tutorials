@@ -1,0 +1,2 @@
+ - We using constructor to create some values for variable instance ! 
+ - Or you call create values for object.

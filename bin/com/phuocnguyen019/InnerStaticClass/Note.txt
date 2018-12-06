@@ -1,0 +1,12 @@
+- Inner Static class can declared in public class, sometimes it declare before 
+public static void main class 
+- Access manage can: public / private/ protected / default
+- To call Inner Static class from main function
+	+ We can access it through public class 
+	+ In this case: we use "Person.Employee person = new Person.Employee();"
+	+ After that, using variable person point to method on Inner Static class.
+
+- To extends one inner static class, we use:
+	+ Create another class,
+	+ Extends inner static class through public class, and point to inner static class,
+	+ In this case: "public class Worker extends Person.Employee"
