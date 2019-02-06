@@ -6,9 +6,13 @@ public interface PersonService {
 
 	public abstract int getAge();
 
+	public abstract String getFullInformation();
+
+	/*
+	 * default is abstract
+	 */
 	public String getAddress();
 
-	public abstract String getFullInformation();
 }
 // All method in interface, is abstract with public access
 // All method no have body
