@@ -14,5 +14,7 @@ public interface PersonService {
 	public String getAddress();
 
 }
-// All method in interface, is abstract with public access
-// All method no have body
+/*
+ * All method in interface, is abstract with public access. All method no have
+ * body
+ */
