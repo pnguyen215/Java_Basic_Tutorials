@@ -4,19 +4,13 @@ import java.io.IOException;
 
 public class Main {
 
-	public Main() {
-	}
-
 	public static void main(String[] args) {
 
-		ReadFile rfile = new ReadFile();
-		WriteFile wfile = new WriteFile();
+		MethodReadFromFile methodReadFromFile = new MethodReadFromFile();
+		MethodWriteToFile methodWriteToFile = new MethodWriteToFile();
 		try {
-			rfile.readFile();
-			wfile.writeFile("Nguyen Huu Phuoc");
-			wfile.writeFile("\n");
-			wfile.writeFile("Age: 21");
-			rfile.readFile();
+			methodReadFromFile.readFileUsingBufferedWithUTF_8();
+			methodWriteToFile.writeToFileUsingBufferedWriterUTF_8("nguyễn hữu phước");
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
