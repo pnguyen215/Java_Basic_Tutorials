@@ -9,6 +9,28 @@ public class Person implements Serializable {
 	private int age;
 	private int id;
 
+	public Person() {
+	}
+
+	public Person(String name, int age, int id) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.id = id;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
 	public void printOut() {
 		// Worker class is called method-local inner class ,
 		// We declared method-local inner class into method of public class (printOut)
@@ -16,32 +38,26 @@ public class Person implements Serializable {
 			private String name;
 			private int age;
 
-			// This is constructor
-			@SuppressWarnings("unused")
-			public Worker() {
+			public Worker(String name, int age) {
 				super();
-			}
-
-			public String getName() {
-				return name;
-			}
-
-			public void setName(String name) {
 				this.name = name;
+				this.age = age;
 			}
 
 			public int getAge() {
 				return age;
 			}
 
+			public String getName() {
+				return name;
+			}
+
 			public void setAge(int age) {
 				this.age = age;
 			}
 
-			public Worker(String name, int age) {
-				super();
+			public void setName(String name) {
 				this.name = name;
-				this.age = age;
 			}
 
 			@Override
@@ -53,41 +69,19 @@ public class Person implements Serializable {
 		worker.setName("Worker");
 		worker.setAge(54);
 		Worker worker2 = new Worker("PhuocNguyen", 21);
-		System.out.println(worker.toString() + worker2.toString());
-	}
-
-	public Person() {
-	}
-
-	public Person(String name, int age, int id) {
-		super();
-		this.name = name;
-		this.age = age;
-		this.id = id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getAge() {
-		return age;
+		System.out.println(worker.toString() + " " + worker2.toString());
 	}
 
 	public void setAge(int age) {
 		this.age = age;
 	}
 
-	public int getId() {
-		return id;
-	}
-
 	public void setId(int id) {
 		this.id = id;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	@Override

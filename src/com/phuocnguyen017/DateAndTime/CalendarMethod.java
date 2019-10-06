@@ -78,16 +78,6 @@ public class CalendarMethod {
 		System.out.println("millisecond \t: " + millisecond);
 	}
 
-	public void setDateManually() {
-		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy MM dd HH:mm:ss");
-		Calendar calendar = new GregorianCalendar(2013, 1, 28, 13, 24, 56);
-		System.out.println("#1. " + simpleDateFormat.format(calendar.getTime()));
-		// update a date
-		calendar.set(2014, 10, 23); // year, month, date
-		// Month: Jan -> 0, Dec -> 11
-		System.out.println("#2. " + simpleDateFormat.format(calendar.getTime()));
-	}
-
 	public void parsingDateToCalendar() {
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy MM dd HH:mm:ss");
 		String dateString = "2020 08 10 10:08:10";
@@ -100,5 +90,15 @@ public class CalendarMethod {
 			e.printStackTrace();
 		}
 
+	}
+
+	public void setDateManually() {
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy MM dd HH:mm:ss");
+		Calendar calendar = new GregorianCalendar(2013, 1, 28, 13, 24, 56);
+		System.out.println("#1. " + simpleDateFormat.format(calendar.getTime()));
+		// update a date
+		calendar.set(2014, 10, 23); // year, month, date
+		// Month: January -> 0, December -> 11
+		System.out.println("#2. " + simpleDateFormat.format(calendar.getTime()));
 	}
 }

@@ -2,12 +2,11 @@ package com.phuocnguyen022.AnonymousInnerClass;
 
 public class Main {
 
-	public Main() {
-	}
-
 	public static void main(String[] args) {
-
-		PersonService personService = new PersonService() {
+		/*
+		 * for interface class
+		 */
+		PersonService personService = new PersonService() { // calling it by Anonymous Inner Class
 
 			@Override
 			public String announce() {
@@ -15,7 +14,10 @@ public class Main {
 			}
 		};
 		System.out.println(personService.announce());
-		PersonAbstract personAbstract = new PersonAbstract() {
+		/*
+		 * for abstract class
+		 */
+		PersonAbstract personAbstract = new PersonAbstract() { // calling it by Anonymous Inner Class
 
 			@Override
 			public String getName() {
@@ -23,6 +25,9 @@ public class Main {
 			}
 		};
 		System.out.println(personAbstract.getName());
+	}
+
+	public Main() {
 	}
 
 }

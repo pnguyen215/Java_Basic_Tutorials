@@ -16,5 +16,6 @@ public class Main {
 		dateMethod.parsingDateIntoString();
 		dateMethod.parsingStringIntoDate();
 		dateMethod.convertCalendarToDate();
+
 	}
 }

@@ -2,17 +2,9 @@ package com.phuocnguyen030.LifeCycleThread.Images;
 
 public class MyThread extends Thread {
 
-	public MyThread() {
-	}
-
 	private String nameThread;
 
-	public String getNameThread() {
-		return nameThread;
-	}
-
-	public void setNameThread(String nameThread) {
-		this.nameThread = nameThread;
+	public MyThread() {
 	}
 
 	public MyThread(String nameThread) {
@@ -20,10 +12,17 @@ public class MyThread extends Thread {
 		this.nameThread = nameThread;
 	}
 
+	public String getNameThread() {
+		return nameThread;
+	}
+
 	@Override
 	public void run() {
 
 		for (int i = 0; i < 10; i++) {
+			/*
+			 * block try ...catch to run after 1 second
+			 */
 			try {
 				Thread.sleep(1000); // thread go to sleep after 1 second
 			} catch (InterruptedException e) {
@@ -32,5 +31,9 @@ public class MyThread extends Thread {
 			System.out.println(this.getNameThread() + " " + i);
 
 		}
+	}
+
+	public void setNameThread(String nameThread) {
+		this.nameThread = nameThread;
 	}
 }

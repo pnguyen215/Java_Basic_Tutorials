@@ -8,5 +8,8 @@ public class Employee extends Person {
 	public void Announce() {
 		System.out.println("This is sub class of Employee!");
 	}
+	/*
+	 * An other class normal, "extends" it and override method on abstract class
+	 */
 
 }

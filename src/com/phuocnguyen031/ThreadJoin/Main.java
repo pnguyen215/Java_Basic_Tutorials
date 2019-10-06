@@ -2,9 +2,6 @@ package com.phuocnguyen031.ThreadJoin;
 
 public class Main {
 
-	public Main() {
-	}
-
 	public static void main(String[] args) {
 
 		MyThread myThread = new MyThread();
@@ -25,4 +22,8 @@ public class Main {
 		myThread2.start();
 		myThread3.start();
 	}
+	/*
+	 * in thread, you can setName and getName for name thread, all of it is default!
+	 */
+
 }

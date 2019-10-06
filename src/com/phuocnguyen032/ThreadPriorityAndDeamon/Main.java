@@ -2,9 +2,6 @@ package com.phuocnguyen032.ThreadPriorityAndDeamon;
 
 public class Main {
 
-	public Main() {
-	}
-
 	public static void main(String[] args) {
 
 		MyThread myThread1 = new MyThread();
@@ -22,11 +19,17 @@ public class Main {
 		myThread2.start();
 		myThread3.start();
 		System.out.println("myThread2: isAlive!" + myThread2.isAlive());
-		myThread1.setDaemon(true);
+		myThread1.setDaemon(true); // when you setDeamon thread for myThread1, so then you need comment for
+									// myThread1.start()
 		System.out.println("myThread1: isAlive!" + myThread1.isAlive());
 		System.out.println(myThread1.isDaemon()); // this myThread1 is running background
 		System.out.println(myThread1.isInterrupted());
 
 	}
+	/*
+	 * Threads in java are arranged in priority from 1 to 10. Depending on priority,
+	 * the thread is run before or after. However, this does not guarantee this
+	 * priority in practice.
+	 */
 
 }

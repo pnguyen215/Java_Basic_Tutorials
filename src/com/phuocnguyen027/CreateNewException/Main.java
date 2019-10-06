@@ -2,9 +2,6 @@ package com.phuocnguyen027.CreateNewException;
 
 public class Main {
 
-	public Main() {
-	}
-
 	public static int dividedBy(int a, int b) throws MyException {
 		int res;
 		try {
@@ -18,7 +15,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		try {
-			System.out.println(dividedBy(8, 4));
+			System.out.println(dividedBy(8, 0));
 		} catch (MyException e) {
 			System.out.println(e.getMessages());
 		}
