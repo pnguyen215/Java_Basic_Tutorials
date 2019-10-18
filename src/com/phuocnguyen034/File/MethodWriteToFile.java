@@ -1,4 +1,4 @@
-package com.phuocnguyen034.File;
+package phuocnguyen034.File;
 
 import java.io.BufferedWriter;
 import java.io.File;
