@@ -1,4 +1,4 @@
-package com.phuocnguyen017.DateAndTime;
+package phuocnguyen017.DateAndTime;
 
 import java.util.Calendar;
 

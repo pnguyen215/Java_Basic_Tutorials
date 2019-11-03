@@ -1,4 +1,4 @@
-package com.phuocnguyen011.AbstractClass;
+package phuocnguyen011.AbstractClass;
 
 import java.io.Serializable;
 

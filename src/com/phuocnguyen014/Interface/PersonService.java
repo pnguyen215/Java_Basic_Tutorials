@@ -1,4 +1,4 @@
-package com.phuocnguyen014.Interface;
+package phuocnguyen014.Interface;
 
 public interface PersonService {
 

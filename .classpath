@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="src/com"/>
 	<classpathentry kind="src" path="/LibraryExternalForJavaBasic"/>
 	<classpathentry kind="src" path="/Java_Tutorials_Advanced"/>
+	<classpathentry kind="src" path="/Java_Gson_Tutorials"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
